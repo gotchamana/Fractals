@@ -1,0 +1,37 @@
+body {
+	margin: 0px;
+}
+
+.wrapper {
+	display: table;
+	position: absolute;
+	height: 100%;
+	padding: 20px 0px 0px 20px;
+}
+
+#sketch {
+	display: table-cell;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#controls {
+	display: table-cell;
+	vertical-align: top;
+	min-width: 200px;
+}
+
+#controls .control {
+	margin-bottom: 20px;
+}
+
+label {
+	font-size: 100%;
+	color: #565656;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+	color: black;
+}

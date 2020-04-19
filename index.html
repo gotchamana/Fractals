@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+		<link rel="shortcut icon" type="image/png" href="web/favicon.png" />
+		<link rel="stylesheet" href="web/fractal.css" charset="utf-8" />
+		<script src="web/fractal.js" charset="utf-8"></script>
+
+		<title>Fractal</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div id="controls">
+				<div class="control">
+					<label>
+						碎形類型
+						<select class="input-field" name="fractal-type">
+							<option value="0">謝爾賓斯基三角形</option>
+							<option value="1">謝爾賓斯基地毯</option>
+							<option value="2">科赫雪花</option>
+							<option value="3">萊維C形曲線</option>
+							<option value="4">碎形樹</option>
+						</select>
+					</label>
+				</div>
+
+				<div class="control">
+					<label class="input-field">
+						Iteration
+						<select name="iterations">
+						</select>
+					</label>
+				</div>
+
+				<button class="waves-effect waves-light btn-large control">繪圖</button>
+			</div>
+
+			<div id="sketch">
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	</body>
+</html>
